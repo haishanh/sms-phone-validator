@@ -2,5 +2,22 @@
   "name": "sms-phone-validator",
   "version": "0.0.0",
   "main": "index.js",
-  "license": "UNLICENSED"
+  "scripts": {
+    "lint": "eslint src",
+    "pretty": "prettier --single-quote --write 'src/**/*.{js,scss}'"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.12.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
 }
