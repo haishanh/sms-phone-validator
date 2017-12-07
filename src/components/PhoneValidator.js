@@ -24,13 +24,17 @@ class PhoneValidator extends Component {
   static defaultProps = {
     buttonTextDefault: '获取验证码',
     buttonTextSent: '已发送',
-    placeholder: '手机号'
+    placeholder: '手机号',
+    sendSmsBackoffTime: 60,
+    fetchImpl: fetch
   };
 
   static propTypes = {
     buttonTextDefault: PropTypes.string,
     buttonTextSent: PropTypes.string,
-    placeholder: PropTypes.string
+    placeholder: PropTypes.string,
+    sendSmsBackoffTime: PropTypes.number,
+    fetchImpl: PropTypes.func
   };
 
   state = {
@@ -62,7 +66,7 @@ class PhoneValidator extends Component {
 
   render() {
     const { isPhoneNumberValid, isVerifyInProgress } = this.state;
-    const { buttonTextDefault, buttonTextSent, placeholder } = this.props;
+    const { buttonTextDefault, buttonTextSent } = this.props;
     const canSend = isPhoneNumberValid === true && isVerifyInProgress === false;
     const buttonText = isVerifyInProgress ? buttonTextSent : buttonTextDefault;
 
@@ -70,17 +74,15 @@ class PhoneValidator extends Component {
       <div>
         <PhoneNumberInput
           onValidationChange={this.handleOnValidationChange}
-          placeholder={placeholder}
           {...this.props}
         />
         <SendButton
           text={buttonText}
           canSend={canSend}
-          sendSmsBackoffTime={5}
           onCountdownStarted={this.onCountdownStarted}
           onCountdownCompleted={this.onCountdownCompleted}
           onSendFailed={this.onSendFailed}
-          fetchImpl={fetchMockGood}
+          {...this.props}
         />
       </div>
     );

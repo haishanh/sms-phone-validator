@@ -4,8 +4,9 @@
 // normally this should be put into a separate file, e.g. constants.js
 const API_ENDPOINT = '/api/sms/code';
 
-export default function sendSms(fetch) {
-  return fetch(API_ENDPOINT, { method: 'POST' }).then(res => {
+export default function sendSms(whichFetch) {
+  const fetchImpl = whichFetch ? whichFetch : window.fetch;
+  return fetchImpl(API_ENDPOINT, { method: 'POST' }).then(res => {
     if (res.ok) {
       return res.json();
     }

@@ -10,6 +10,7 @@ class PhoneNumberInput extends Component {
   };
 
   static propTypes = {
+    placeholder: PropTypes.string.isRequired,
     onValidationChange: PropTypes.func
   };
 
