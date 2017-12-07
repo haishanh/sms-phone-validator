@@ -10,13 +10,11 @@ class PhoneNumberInput extends Component {
   };
 
   static propTypes = {
-    onValidationChange: PropTypes.func,
-    placeholder: PropTypes.string
+    onValidationChange: PropTypes.func
   };
 
   static defaultProps = {
-    onValidationChange: () => {},
-    placeholder: 'Phone Number'
+    onValidationChange: () => {}
   };
 
   handleOnChange = ev => {

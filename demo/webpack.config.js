@@ -49,5 +49,10 @@ module.exports = {
   module: {
     rules: [svgSpriteRule, ...rules]
   },
+  resolve: {
+    alias: {
+      "sms-phone-validator": path.resolve(__dirname, "../src")
+    }
+  },
   plugins
 };

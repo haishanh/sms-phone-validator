@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 
-import PhoneValidator from '../../../src'
+import PhoneValidator from 'sms-phone-validator';
 
 class WhateverForm extends Component {
-
   render() {
-    return (
-      <PhoneValidator />
-    );
+    return <PhoneValidator />;
   }
 }
 

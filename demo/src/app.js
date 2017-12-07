@@ -4,6 +4,8 @@ import { AppContainer } from 'react-hot-loader';
 
 import Root from './components/Root';
 
+// import 'regenerator-runtime/runtime'
+
 const render = Component => {
   ReactDOM.render(
     <AppContainer>
