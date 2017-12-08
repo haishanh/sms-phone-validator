@@ -2,9 +2,8 @@ import React from 'react';
 import SendButton from '../SendButton';
 import { shallow } from 'enzyme';
 
-function sleep(t) {
-  return new Promise(r => setTimeout(r, t));
-}
+import sleep from '../../helpers/sleep';
+
 const noop = () => {};
 
 const setTimeoutOrig = setTimeout;
@@ -22,7 +21,7 @@ function fetchMockGood() {
     ok: true,
     json: () => {}
   };
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     return resolve(res);
   });
 }

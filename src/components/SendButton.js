@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import sleep from '../helpers/sleep';
 import sendSms from '../helpers/sendSms';
 
 class SendButton extends Component {
@@ -48,7 +47,7 @@ class SendButton extends Component {
 
   handleButtonOnClick = () => {
     const { fetchImpl } = this.props;
-    sendSms(fetchImpl).catch(err => {
+    sendSms(fetchImpl).catch(() => {
       this.stopCountdown();
       this.props.onSendFailed();
     });

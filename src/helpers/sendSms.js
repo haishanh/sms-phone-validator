@@ -1,5 +1,3 @@
-'use strict';
-
 // assuming the api baseURL is under same domain as the frontend hosting
 // normally this should be put into a separate file, e.g. constants.js
 const API_ENDPOINT = '/api/sms/code';

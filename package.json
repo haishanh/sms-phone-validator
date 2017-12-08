@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "eslint src",
     "test": "NODE_ENV=test jest",
+    "coverage": "NODE_ENV=test jest --coverage",
     "storybook": "start-storybook -p 9001 -c stories",
     "storybook:build": "build-storybook -c stories -o .out",
     "deploy": "deploy -d .out -r git@github.com:haishanh/sms-phone-validator.git -b gh-pages",
@@ -28,12 +29,17 @@
     "enzyme-adapter-react-16": "^1.1.0",
     "eslint": "^4.12.1",
     "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.4.2",
     "eslint-plugin-react": "^7.5.1",
-    "jest": "^21.2.1"
-  },
-  "dependencies": {
-    "prop-types": "^15.6.0",
+    "jest": "^21.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
   }
 }
