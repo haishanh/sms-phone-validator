@@ -42,9 +42,9 @@ cd sms-phone-validator
 yarn
 ```
 
-[Storybook] is used in this project to demo the usage of this component. But it helps the development.
+[Storybook] is used in this project to demo the usage of this component. But it helps the development also.
 
-Simple run:
+Simply run:
 
 ```bash
 yarn run storybook
