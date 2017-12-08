@@ -35,7 +35,7 @@ First:
 
 ```bash
 # clone the repo
-git clone git@github.com:haishanh/sms-phone-validator.git
+git clone https://github.com/haishanh/sms-phone-validator.git
 cd sms-phone-validator
 
 # install depencies
@@ -70,7 +70,7 @@ The generated assets will be placed in `.out`. And this directory is ready to be
 
 ```bash
 # clone the repo
-git clone git@github.com:haishanh/sms-phone-validator.git
+git clone https://github.com/haishanh/sms-phone-validator.git
 cd sms-phone-validator
 
 # install dependencies
