@@ -4,9 +4,7 @@ import PhoneNumberInput from '../PhoneNumberInput';
 import SendButton from '../SendButton';
 import { shallow, mount } from 'enzyme';
 
-function sleep(t) {
-  return new Promise(r => setTimeout(r, t));
-}
+import sleep from '../../helpers/sleep';
 const noop = () => {};
 // const node = document.createElement('div')
 function fetchMockGood() {
