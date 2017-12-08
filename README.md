@@ -60,7 +60,7 @@ To generate the static build of the Storybook, run:
 yarn run storybook:build
 ```
 
-The generated assets will be placed in `.out`. And this diectory is ready to be deployed GitHub gh-pages, [Netlify], etc.
+The generated assets will be placed in `.out`. And this directory is ready to be deployed to GitHub gh-pages, [Netlify], etc.
 
 [storybook]: https://storybook.js.org/
 
