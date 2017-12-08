@@ -1,0 +1,42 @@
+.playground {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.phone-validator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.phone-validator input {
+  outline: 0;
+  padding: 16px 8px;
+  width: 300px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.phone-validator input:focus {
+  border-color: #4e64de;
+}
+
+.phone-validator button {
+  position: absolute;
+  right: 8px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+}
+
+.phone-validator button:disabled,
+.phone-validator button[disabled] {
+  color: #bbb;
+}

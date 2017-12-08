@@ -1,0 +1,19 @@
+sudo: required
+language: node_js
+cache:
+  yarn: true
+notifications:
+  email: false
+branches:
+  only:
+    - master
+    - development
+node_js:
+  - "8"
+env:
+  global:
+    - NODE_ENV=test
+install:
+  - yarn
+script:
+  - yarn run test

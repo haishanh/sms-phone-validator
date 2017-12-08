@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneValidator /> should render 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PhoneValidator
+    buttonTextDefault="获取验证码"
+    buttonTextSent="已发送"
+    className="phone-validator"
+    fetchImpl={[Function]}
+    inputName="phoneNumber"
+    placeholder="手机号"
+    sendSmsBackoffTime={60}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <PhoneNumberInput
+          buttonTextDefault="获取验证码"
+          buttonTextSent="已发送"
+          className="phone-validator"
+          fetchImpl={[Function]}
+          inputName="phoneNumber"
+          name="phoneNumber"
+          onValidationChange={[Function]}
+          placeholder="手机号"
+          sendSmsBackoffTime={60}
+        />,
+        <SendButton
+          buttonTextDefault="获取验证码"
+          buttonTextSent="已发送"
+          canSend={false}
+          className="phone-validator"
+          fetchImpl={[Function]}
+          inputName="phoneNumber"
+          onCountdownCompleted={[Function]}
+          onCountdownStarted={[Function]}
+          onSendFailed={[Function]}
+          placeholder="手机号"
+          sendSmsBackoffTime={60}
+          text="获取验证码"
+        />,
+      ],
+      "className": "phone-validator",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "buttonTextDefault": "获取验证码",
+          "buttonTextSent": "已发送",
+          "className": "phone-validator",
+          "fetchImpl": [Function],
+          "inputName": "phoneNumber",
+          "name": "phoneNumber",
+          "onValidationChange": [Function],
+          "placeholder": "手机号",
+          "sendSmsBackoffTime": 60,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "buttonTextDefault": "获取验证码",
+          "buttonTextSent": "已发送",
+          "canSend": false,
+          "className": "phone-validator",
+          "fetchImpl": [Function],
+          "inputName": "phoneNumber",
+          "onCountdownCompleted": [Function],
+          "onCountdownStarted": [Function],
+          "onSendFailed": [Function],
+          "placeholder": "手机号",
+          "sendSmsBackoffTime": 60,
+          "text": "获取验证码",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <PhoneNumberInput
+            buttonTextDefault="获取验证码"
+            buttonTextSent="已发送"
+            className="phone-validator"
+            fetchImpl={[Function]}
+            inputName="phoneNumber"
+            name="phoneNumber"
+            onValidationChange={[Function]}
+            placeholder="手机号"
+            sendSmsBackoffTime={60}
+          />,
+          <SendButton
+            buttonTextDefault="获取验证码"
+            buttonTextSent="已发送"
+            canSend={false}
+            className="phone-validator"
+            fetchImpl={[Function]}
+            inputName="phoneNumber"
+            onCountdownCompleted={[Function]}
+            onCountdownStarted={[Function]}
+            onSendFailed={[Function]}
+            placeholder="手机号"
+            sendSmsBackoffTime={60}
+            text="获取验证码"
+          />,
+        ],
+        "className": "phone-validator",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "buttonTextDefault": "获取验证码",
+            "buttonTextSent": "已发送",
+            "className": "phone-validator",
+            "fetchImpl": [Function],
+            "inputName": "phoneNumber",
+            "name": "phoneNumber",
+            "onValidationChange": [Function],
+            "placeholder": "手机号",
+            "sendSmsBackoffTime": 60,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "buttonTextDefault": "获取验证码",
+            "buttonTextSent": "已发送",
+            "canSend": false,
+            "className": "phone-validator",
+            "fetchImpl": [Function],
+            "inputName": "phoneNumber",
+            "onCountdownCompleted": [Function],
+            "onCountdownStarted": [Function],
+            "onSendFailed": [Function],
+            "placeholder": "手机号",
+            "sendSmsBackoffTime": 60,
+            "text": "获取验证码",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
