@@ -7,7 +7,9 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <PhoneValidator
     buttonTextDefault="获取验证码"
     buttonTextSent="已发送"
+    className="phone-validator"
     fetchImpl={[Function]}
+    inputName="phoneNumber"
     placeholder="手机号"
     sendSmsBackoffTime={60}
   />,
@@ -27,7 +29,10 @@ ShallowWrapper {
         <PhoneNumberInput
           buttonTextDefault="获取验证码"
           buttonTextSent="已发送"
+          className="phone-validator"
           fetchImpl={[Function]}
+          inputName="phoneNumber"
+          name="phoneNumber"
           onValidationChange={[Function]}
           placeholder="手机号"
           sendSmsBackoffTime={60}
@@ -36,7 +41,9 @@ ShallowWrapper {
           buttonTextDefault="获取验证码"
           buttonTextSent="已发送"
           canSend={false}
+          className="phone-validator"
           fetchImpl={[Function]}
+          inputName="phoneNumber"
           onCountdownCompleted={[Function]}
           onCountdownStarted={[Function]}
           onSendFailed={[Function]}
@@ -45,6 +52,7 @@ ShallowWrapper {
           text="获取验证码"
         />,
       ],
+      "className": "phone-validator",
     },
     "ref": null,
     "rendered": Array [
@@ -55,7 +63,10 @@ ShallowWrapper {
         "props": Object {
           "buttonTextDefault": "获取验证码",
           "buttonTextSent": "已发送",
+          "className": "phone-validator",
           "fetchImpl": [Function],
+          "inputName": "phoneNumber",
+          "name": "phoneNumber",
           "onValidationChange": [Function],
           "placeholder": "手机号",
           "sendSmsBackoffTime": 60,
@@ -72,7 +83,9 @@ ShallowWrapper {
           "buttonTextDefault": "获取验证码",
           "buttonTextSent": "已发送",
           "canSend": false,
+          "className": "phone-validator",
           "fetchImpl": [Function],
+          "inputName": "phoneNumber",
           "onCountdownCompleted": [Function],
           "onCountdownStarted": [Function],
           "onSendFailed": [Function],
@@ -97,7 +110,10 @@ ShallowWrapper {
           <PhoneNumberInput
             buttonTextDefault="获取验证码"
             buttonTextSent="已发送"
+            className="phone-validator"
             fetchImpl={[Function]}
+            inputName="phoneNumber"
+            name="phoneNumber"
             onValidationChange={[Function]}
             placeholder="手机号"
             sendSmsBackoffTime={60}
@@ -106,7 +122,9 @@ ShallowWrapper {
             buttonTextDefault="获取验证码"
             buttonTextSent="已发送"
             canSend={false}
+            className="phone-validator"
             fetchImpl={[Function]}
+            inputName="phoneNumber"
             onCountdownCompleted={[Function]}
             onCountdownStarted={[Function]}
             onSendFailed={[Function]}
@@ -115,6 +133,7 @@ ShallowWrapper {
             text="获取验证码"
           />,
         ],
+        "className": "phone-validator",
       },
       "ref": null,
       "rendered": Array [
@@ -125,7 +144,10 @@ ShallowWrapper {
           "props": Object {
             "buttonTextDefault": "获取验证码",
             "buttonTextSent": "已发送",
+            "className": "phone-validator",
             "fetchImpl": [Function],
+            "inputName": "phoneNumber",
+            "name": "phoneNumber",
             "onValidationChange": [Function],
             "placeholder": "手机号",
             "sendSmsBackoffTime": 60,
@@ -142,7 +164,9 @@ ShallowWrapper {
             "buttonTextDefault": "获取验证码",
             "buttonTextSent": "已发送",
             "canSend": false,
+            "className": "phone-validator",
             "fetchImpl": [Function],
+            "inputName": "phoneNumber",
             "onCountdownCompleted": [Function],
             "onCountdownStarted": [Function],
             "onSendFailed": [Function],
