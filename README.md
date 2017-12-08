@@ -35,7 +35,7 @@ First:
 
 ```bash
 # clone the repo
-git clone git@github.com:haishanh/sms-phone-validator.git
+git clone https://github.com/haishanh/sms-phone-validator.git
 cd sms-phone-validator
 
 # install depencies
@@ -60,7 +60,7 @@ To generate the static build of the Storybook, run:
 yarn run storybook:build
 ```
 
-The generated assets will be placed in `.out`. And this diectory is ready to be deployed GitHub gh-pages, [Netlify], etc.
+The generated assets will be placed in `.out`. And this directory is ready to be deployed to GitHub gh-pages, [Netlify], etc.
 
 [storybook]: https://storybook.js.org/
 
@@ -70,7 +70,7 @@ The generated assets will be placed in `.out`. And this diectory is ready to be 
 
 ```bash
 # clone the repo
-git clone git@github.com:haishanh/sms-phone-validator.git
+git clone https://github.com/haishanh/sms-phone-validator.git
 cd sms-phone-validator
 
 # install dependencies
