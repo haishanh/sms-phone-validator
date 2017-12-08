@@ -80,5 +80,5 @@ yarn
 yarn run jest
 
 # run test with coverage
-yarn run jest --coverage
+yarn run coverage
 ```
