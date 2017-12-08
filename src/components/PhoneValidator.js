@@ -20,6 +20,8 @@ class PhoneValidator extends Component {
     buttonTextSent: PropTypes.string,
     placeholder: PropTypes.string,
     sendSmsBackoffTime: PropTypes.number,
+    className: PropTypes.string,
+    inputName: PropTypes.string,
     fetchImpl: PropTypes.func
   };
 

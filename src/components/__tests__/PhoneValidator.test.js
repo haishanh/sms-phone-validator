@@ -12,7 +12,7 @@ function fetchMockGood() {
     ok: true,
     json: () => {}
   };
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     return resolve(res);
   });
 }
