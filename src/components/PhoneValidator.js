@@ -4,22 +4,6 @@ import PropTypes from 'prop-types';
 import PhoneNumberInput from './PhoneNumberInput';
 import SendButton from './SendButton';
 
-// function fetchMockGood() {
-//   const res = {
-//     ok: true,
-//     json: () => {}
-//   };
-//   return new Promise((resolve, reject) => {
-//     return resolve(res);
-//   });
-// }
-
-// function fetchMockBad() {
-//   return new Promise((resolve, reject) => {
-//     setTimeout(reject, 3000);
-//   });
-// }
-
 class PhoneValidator extends Component {
   static defaultProps = {
     buttonTextDefault: '获取验证码',
