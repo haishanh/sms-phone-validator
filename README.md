@@ -73,7 +73,7 @@ The generated assets will be placed in `.out`. And this diectory is ready to be 
 git clone git@github.com:haishanh/sms-phone-validator.git
 cd sms-phone-validator
 
-# install depencies
+# install dependencies
 yarn
 
 # run test
